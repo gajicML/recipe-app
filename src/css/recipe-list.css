@@ -1,0 +1,45 @@
+.recipe-card{
+    width: 33%;
+    box-shadow: 0px 0px 4px 1px #ddd;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 13px;
+    float: left;
+    box-sizing: border-box;
+    min-width: 310px;
+}
+.clear{
+    clear: both;
+}
+.buttons{
+    float: right;
+    width: 165px;
+}
+
+.buttons button{
+    margin: 7px 5px;
+    color: #fff;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.buttons .edit{
+    background: #03a9f4;
+}
+.buttons .delete{
+    background: #af1111;
+
+}
+.recipe-name{    float: left;}
+.recipe-instro{
+    white-space: pre-wrap;
+}
+
+.steps{
+    margin-bottom: 10px;
+}
+
+.steps-heading{
+    font-weight: bold
+}
