@@ -1,14 +1,14 @@
 import React from 'react';
 import IngredientList from './IngredientList';
 
-export default function Recipe({ name, cookTime, servings, instructions, ingredients }) {
+export default function Recipe({ name, cookTime, servings, instructions, ingredients, handleRecipeDelete, id }) {
     return (
         <div className="recipe-card">
             <div>
                 <h3 className="recipe-name">{name}</h3>
                 <div className="buttons">
                     <button className="edit">Edit</button>
-                    <button className="delete">Delete</button>
+                    <button onClick={() => handleRecipeDelete(id)} className="delete">Delete</button>
                 </div>
             </div>
 

@@ -24,12 +24,18 @@
     border-radius: 5px;
     font-size: 17px;
 }
+.buttons button:hover{
+    cursor: pointer;
+}
 .buttons .edit{
     background: #03a9f4;
 }
 .buttons .delete{
     background: #af1111;
-
+}
+.buttons .add{
+    background: #00800b;
+    width: 150px;
 }
 .recipe-name{    float: left;}
 .recipe-instro{
@@ -42,4 +48,12 @@
 
 .steps-heading{
     font-weight: bold
+}
+
+.float-none{
+    float: none;
+}
+
+.margin-auto{
+    margin: 0 auto;
 }
