@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import IngredientList from './IngredientList';
+import { RecipeContext } from './App';
 
-export default function Recipe({ name, cookTime, servings, instructions, ingredients, handleRecipeDelete, id }) {
+export default function Recipe({ name, cookTime, servings, instructions, ingredients, id }) {
+    const { handleRecipeDelete } = useContext(RecipeContext);
+
     return (
         <div className="recipe-card">
             <div>
