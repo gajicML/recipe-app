@@ -1,7 +1,10 @@
 @import-normalize;
 @import 'recipe-list.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 *, *::before, *::after {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', cursive;
 }
 
